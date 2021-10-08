@@ -44,7 +44,7 @@ const PATHS = {
 
 function addHTMLPlugin(){
     return new HtmlWebpackPlugin({
-        title: "Briefcart",
+        title: "React DDD",
         template: './helpers/template.html',
         appMountId: 'app',
         inject: false,
