@@ -1,0 +1,9 @@
+{
+  "apps" : [
+      {
+          "name" : "app",
+          "script" : "./server.js",
+          "ignore_watch" : ["node_modules", "src", "coverage", ".git"]
+      }
+  ]
+}

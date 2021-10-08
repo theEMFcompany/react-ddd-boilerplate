@@ -1,0 +1,21 @@
+{
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react",
+      "@babel/preset-typescript"
+    ],
+    "plugins": [
+      "react-hot-loader/babel",
+      "transform-react-jsx-img-import",
+      "@babel/plugin-proposal-class-properties",
+      "@babel/plugin-proposal-object-rest-spread",
+      "@babel/plugin-transform-runtime",
+      [
+          "module-resolver",
+          {
+              "root": ["./src/", "./node_modules/"],
+              "extensions": [".css", ".js", ".es6", ".json", ".scss", ".jsx", ".html", ".ts", ".tsx"]
+          }
+      ]
+    ]
+}

@@ -1,0 +1,56 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: "%APP_NAME%-%DEPLOY_ENV%"
+  labels:
+    project: "%PROJECT_NAME%"
+    app: "%APP_NAME%"
+    tier: frontend
+    env: "%DEPLOY_ENV%"
+spec:
+  ports:
+  - port: 80
+    targetPort: 3000
+  selector:
+    app: "%APP_NAME%-%DEPLOY_ENV%"
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: "%APP_NAME%-%DEPLOY_ENV%"
+spec:
+  selector:
+    matchLabels:
+      app: "%APP_NAME%-%DEPLOY_ENV%"
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        project: "%PROJECT_NAME%"
+        app: "%APP_NAME%-%DEPLOY_ENV%"
+        tier: frontend
+        env: "%DEPLOY_ENV%"
+    spec:
+      containers:
+      - name: "%IMAGE_NAME%"
+        image: "%REGISTRY_URL%/%IMAGE_NAME%:%IMAGE_TAG%"
+        ports:
+          - containerPort: 3000
+        imagePullPolicy: Always
+        resources:
+          requests:
+            cpu: 50m
+            memory: 500Mi
+          limits:
+            cpu: 100m
+            memory: 1000Mi
+        env:
+          - name: PORT
+            value: "3000"
+          - name: API_URL
+            valueFrom:
+              secretKeyRef:
+                name: "cred-%PROJECT_NAME%-%DEPLOY_ENV%"
+                key: api_url
