@@ -10,7 +10,7 @@ export const siteMenu = {
 export const home = {
   hero: {
     CTA: 'Get Started',
-    heading: ['Builed modular React frontends', 'with unrivaled ease'],
+    heading: ['Build modular React frontends', 'with unrivaled ease'],
     body: `${C.SITE_NAME} helps you build domain driven React JS frontends fast.`
   }
 }
