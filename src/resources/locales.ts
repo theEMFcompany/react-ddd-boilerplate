@@ -10,17 +10,14 @@ export const siteMenu = {
 export const home = {
   hero: {
     CTA: 'Get Started',
-    heading: ['Gather Product Requirements', 'with unrivaled ease'],
-    body: `${C.SITE_NAME} helps customer driven teams collate, codify & communicate product requirements while keeping all stakeholders in perfect sync`,
-    callToAction: 'Ready to unleash your team?',
-    actionInputPlaceholder: 'Enter your email',
-    actionSubmitLabel: 'Request Beta Access'
+    heading: ['Builed modular React frontends', 'with unrivaled ease'],
+    body: `${C.SITE_NAME} helps you build domain driven React JS frontends fast.`
   }
 }
 
 export const auth = {
   tryForFree: `Try ${C.SITE_NAME} for free`,
-  joinOurCommunity: `Join our community of developers, designers, product managers and content creators, crafting authentic illustrated naratives with ease`,
+  joinOurCommunity: `Join our community of developers, using React DDD`,
   acceptTerms: [
     `By clicking the “Create My Account” button, you agree to ${C.SITE_NAME}'s `,
     `terms of service`,
