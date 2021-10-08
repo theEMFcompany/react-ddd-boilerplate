@@ -10,7 +10,7 @@ interface Props {
 export const MainSite: React.FC<Props> = (props) => {
   return (
     <div className={`mainSite ${props.className || ''}`}>
-      <SiteHeader color='light-gray' shade='100' logoClass='mainSite__siteHeader__logo'>
+      <SiteHeader color='light-gray' shade='100' title='React DDD'>
       </SiteHeader>
       <main className='mainSite__content'>
         {props.children}

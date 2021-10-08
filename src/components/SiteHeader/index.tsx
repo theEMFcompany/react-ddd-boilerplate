@@ -8,7 +8,8 @@ interface Props {
   color?: Color;
   shade?: ColorShades;
   fullWidth?: boolean;
-  logoClass: string;
+  logoClass?: string;
+  title?: string;
 }
 
 export const SiteHeader: React.FC<Props> = (props) => {
@@ -18,8 +19,10 @@ export const SiteHeader: React.FC<Props> = (props) => {
       }>
       <div className={`siteHeader__wrap${props.fullWidth ? ' siteHeader__wrap--fullWidth' : ''}`}>
         <section className='siteHeader__logoArea'>
-          <NavLink to='/'>
-            <span className={`siteHeader__logoArea__logo ${props.logoClass}`}></span>
+          <NavLink to='/' className={`siteHeader__logoArea__logo ${props.title ? 'siteHeader__logoArea__textLogo' : ''} ${props.logoClass || ''}`}>
+            {
+              props.title
+            }
           </NavLink>
         </section>
         <section className='sideHeader__menuArea'>

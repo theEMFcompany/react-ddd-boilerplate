@@ -32,8 +32,6 @@
 
 .siteHeader__logoArea__logo{
   display: block;
-  height: 70px;
-  width: 180px;
   position: relative;
   background-repeat: no-repeat;
   background-size: auto 50px;
@@ -41,6 +39,13 @@
   @include theme.breakpoint(medium){
     background-size: 165px auto;
   }
+}
+
+.siteHeader__logoArea__textLogo {
+  font-size: theme.$font-size-up-2;
+  font-weight: theme.$global-weight-bold;
+  text-decoration: none;
+  color: theme.$color-primary-400;
 }
 
 .sideHeader__menuArea{
