@@ -1,0 +1,80 @@
+@use "theme";
+.textField-wrap{
+  box-sizing: border-box;
+  border-radius: theme.$global-border-radius;
+  position: relative;
+  width: 100%;
+  max-width: theme.$wrap-width-small;
+  // margin: 0 auto;
+}
+.textField-input{
+    box-sizing: border-box;
+    border-radius: theme.$global-border-radius;
+    width: 100%;
+    height: 60px;
+    color: theme.$color-dark-gray;
+    padding: 30px 15px 15px 15px;
+    background-color: theme.$color-light-gray-100 ;
+    border-width: 1px;
+    border-style: solid;
+    border-color: theme.$color-light-gray-900;
+    box-shadow: none;
+    display: block;
+    font-size: theme.$font-size-default;
+    resize: none;
+    margin:0;
+    z-index: theme.$z2;
+    transition: color 0.2s ease-in-out;
+}
+.textField-input:focus{
+    background: theme.$color-white;
+    border-color: theme.$color-primary-700;
+    outline: none;
+    box-shadow: none;
+}
+.textField-input:disabled{
+    background: theme.$color-light-gray-100;
+    color: theme.$color-light-gray-900;
+}
+.textField-underline{
+    // position: relative;
+    display: block;
+    background: theme.$color-secondary-700;
+    height: 2px;
+    transform: rotateY(90deg);
+    transform-origin: center;
+    transition: transform 0.2s ease-in-out;
+}
+.textField-input:focus ~ .textField-underline{
+    transform: rotateY(0deg);
+}
+.textField-label {
+  width: 100%;
+    color: theme.$color-dark-gray-600;
+    position: absolute;
+    transform: translateY(-42px) scale(1, 1);
+    transform-origin: 0%;
+    left: 15px;
+    font-size: theme.$font-size-default;
+    pointer-events: none;
+    z-index: theme.$z2;
+    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+.textField-input:focus ~ .textField-label{
+    color: theme.$color-primary-700;
+    transform: translateY(-56px) scale(0.7, 0.7);
+}
+.textField-label--dirty{
+    color: theme.$color-dark-gray-400;
+    transform: translateY(-56px) scale(0.7, 0.7);
+}
+.textField-input:disabled ~ .textField-label{
+    color: theme.$color-mid-gray-700;
+}
+.textField-error{
+  position: absolute;
+  width: 100%;
+  transform: translateY(-56px) scale(0.7, 0.7);
+  left: 15px;
+  color: map-get(theme.$foundation-palette, alert);
+}

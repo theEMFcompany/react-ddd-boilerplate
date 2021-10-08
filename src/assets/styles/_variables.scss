@@ -1,0 +1,185 @@
+//************************Define Custom Colors
+//********************************************
+
+// As RGBa codes */
+$color-primary-900: rgba( 0, 18, 59, 1);
+$color-primary-800: rgba( 0, 24, 78, 1);
+$color-primary-700: rgba( 0, 30, 107, 1);   // Main Primary color */
+$color-primary-700: rgba( 0,60,165,1);
+$color-primary-500: rgba( 0,122,244,1);
+$color-primary-400: rgba( 0,130,245,1);
+$color-primary-300: rgba( 0,150,246,1);
+$color-primary-200: rgba( 0,170,247,1);
+$color-primary-100: rgba( 0,190,248,1);
+
+$color-secondary-900: rgba( 155,71,145,1);
+$color-secondary-800: rgb(180, 104, 171); // Main Secondary color */
+$color-secondary-700: rgb(192, 128, 185);
+$color-secondary-600: rgb(206, 151, 200);
+$color-secondary-500: rgb(211, 165, 205);
+$color-secondary-400: rgb(219, 179, 214);
+$color-secondary-300: rgb(221, 185, 216);
+$color-secondary-200: rgb(240, 217, 237);
+$color-secondary-100: rgb(243, 221, 241);
+
+$color-tertiary-900: rgb(118, 165, 31);
+$color-tertiary-800: rgb(144, 199, 43);
+$color-tertiary-700: rgba( 162,214,66,1);
+$color-tertiary-600: rgba( 172,218,87,1);
+$color-tertiary-500: rgba( 182,223,108,1);
+$color-tertiary-400: rgba( 193,228,129,1);
+$color-tertiary-300: rgba( 203,232,150,1);
+$color-tertiary-200: rgba(214,237,171,1);
+$color-tertiary-100: rgba( 224,241,192,1);
+
+
+$color-light-gray-900: rgba(225, 226, 227, 1);
+$color-light-gray-800: rgba(227, 228, 229, 1);
+$color-light-gray-700: rgba(229, 230, 231, 1);
+$color-light-gray-600: rgba(231, 232, 233, 1);
+$color-light-gray-500: rgba(233, 234, 235, 1);
+$color-light-gray-400: rgba(235, 236, 237, 1);
+$color-light-gray-300: rgba(237, 238, 239, 1);
+$color-light-gray-200: rgba(239, 240, 241, 1);
+$color-light-gray-100: rgb(253, 253, 253);
+
+$color-mid-gray-900: rgba(170, 172, 174, 1);
+$color-mid-gray-800: rgba(180, 182, 184, 1);
+$color-mid-gray-700: rgba(189, 191, 193, 1);
+$color-mid-gray-600: rgba(197, 199, 202, 1);
+$color-mid-gray-500: rgba(204, 206, 208, 1);
+$color-mid-gray-400: rgba(210, 212, 214, 1);
+$color-mid-gray-300: rgba(215, 217, 219, 1);
+$color-mid-gray-200: rgba(219, 222, 224, 1);
+$color-mid-gray-100: rgb(240, 240, 240);
+
+
+$color-dark-gray-900: rgba(25, 30, 35, 1);
+$color-dark-gray-800: rgba(50, 55, 60, 1);
+$color-dark-gray-700: rgba(69, 74, 79, 1);
+$color-dark-gray-600: rgba(87, 92, 97, 1);
+$color-dark-gray-500: rgba(104, 109, 114, 1);
+$color-dark-gray-400: rgba(120, 125, 130, 1);
+$color-dark-gray-300: rgba(135, 140, 145, 1);
+$color-dark-gray-200: rgba(149, 154, 159, 1);
+$color-dark-gray-100: rgba(162, 167, 172, 1);
+
+$color-dark-gray-900-transprent: rgba(0,0,0,0.08);
+
+$color-dark-transparent-0: rgba(0, 0, 0, 0.5);
+$color-dark-transparent-1: rgba(0, 0, 0, 0.4);
+$color-dark-transparent-2: rgba(0, 0, 0, 0.3);
+$color-dark-transparent-3: rgba(0, 0, 0, 0.2);
+$color-dark-transparent-4: rgba(0, 0, 0, 0.1);
+
+$color-white-transparent: rgba(222, 225, 237, 0.85);
+$color-white-transparent-0: rgba(255, 255, 255, 0.9);
+$color-white-transparent-1: rgba(255, 255, 255, 0.8);
+$color-white-transparent-2: rgba(255, 255, 255, 0.7);
+$color-white-transparent-3: rgba(255, 255, 255, 0.6);
+$color-white-transparent-4: rgba(255, 255, 255, 0.5);
+
+// Neutral Tones
+$color-white:      rgb(255, 255, 255);
+$color-off-white:  $color-light-gray-300;
+$color-light-gray: $color-mid-gray-300;
+$color-mid-gray:   $color-mid-gray-300;
+$color-dark-gray:  $color-dark-gray-900;
+// $color-dark-gray:  #293e6f;
+
+$color-danger: rgba( 255,4,7,1);
+$color-warning: rgba( 247,219,157,1);
+$color-success:  rgba( 123,231,170,1);
+
+// Tints and shades to handle element states
+$disabled-scale: 30%;
+$hover-scale: 6%;
+$hover-scale-1: 10%;
+$color-primary-tinted : lighten( $color-primary-900, $disabled-scale);
+$color-primary-shaded: darken($color-primary-900, $hover-scale);
+$color-primary-shaded-1: darken($color-primary-900, $hover-scale-1);
+$color-secondary-tinted: lighten($color-secondary-900, $disabled-scale);
+$color-secondary-shaded: darken($color-secondary-900, $hover-scale);
+
+$color-tetiary-tinted: lighten( $color-tertiary-900, $disabled-scale);
+$color-tetiary-shaded: darken( $color-tertiary-900, $hover-scale);
+
+$color-black: black;
+
+//***************************Define Gradients
+//********************************************
+$linear-gradient-primary-0: linear-gradient(75deg, $color-primary-900, $color-primary-500);
+$linear-gradient-primary-2: linear-gradient(75deg, $color-primary-700, $color-primary-500);
+$linear-gradient-secondary-2: linear-gradient(75deg, $color-secondary-700, $color-secondary-500);
+$radial-gradient-primary-2: radial-gradient(circle at center, $color-primary-900 0, $color-primary-700 30%,  $color-primary-500 65%);
+
+//***************************Define font scale
+//********************************************
+$font-size-default: 100%;
+$font-size-up-1: 1.2rem;
+$font-size-up-2: 1.6rem;
+$font-size-up-3: 1.8rem;
+$font-size-xl: 2.4rem;
+$font-size-down-1: 0.9rem;
+$font-size-down-2: 0.8rem;
+$font-size-down-3: 0.7rem;
+
+//************************Define Z-index scale
+//********************************************
+$z0: 1;
+$z1: 10;
+$z2: 20;
+$z3: 30; // Overlapping Layout Items
+$z4: 40;
+$z5: 50;
+$z6: 60;
+$z7: 70; // Free FLoating Elements
+$z8: 80;
+$z9: 90;
+$z10: 100;
+
+//************************Define Shadow Scale
+//********************************************
+$shadow-z2: 0 1px 2px 0 $color-dark-transparent-4;
+$shadow-z3: 0 2px 4px 0 $color-dark-transparent-4;
+$shadow-z4: 0 3px 6px 0 $color-dark-transparent-4;
+$shadow-z5: 0 4px 8px 0 $color-dark-transparent-4;
+$shadow-z6: 0 5px 10px 0 $color-dark-transparent-4;
+$shadow-z7: 0 6px 12px 0 $color-dark-transparent-4;
+$shadow-z8: 0 7px 14px 0 $color-dark-transparent-4;
+$shadow-z9: 0 8px 16px 0 $color-dark-transparent-4;
+$shadow-z10: 0 9px 18px 0 $color-dark-transparent-4;
+
+//******************Define Animation Keyframes
+//********************************************
+$slide-in-right: rightmove 1s 1 ease-in-out;
+$slide-in-left: scaleout 0.4s 1 ease-in-out;
+$fade-in: fadin 0.5s 1 ease-in-out;
+$glide-up: glideup 1s 1 ease-in-out;
+
+//**************Define other utility variables
+//********************************************
+$global-rounded: 50%;
+$global-text-color: $color-dark-gray-500;
+$edge-radius: 4px;
+$global-border-radius: 4px;
+$wrap-width: 90%;
+$wrap-width-extra-small: 240px;
+$wrap-width-small: 360px;
+$wrap-width-medium: 720px;
+$wrap-width-large: 960px;
+$wrap-width-extra-large: 1080px;
+$wrap-max: $wrap-width-extra-large;
+$box-width: $wrap-width-large;
+$form-width: $wrap-width-small;
+
+$space-base: 8px;
+$space-1: $space-base * 0.5;
+$space-2: $space-base * 0.75;
+$space-3: $space-base;
+$space-4: $space-base * 1.5;
+$space-5: $space-base * 3;
+$space-6: $space-base * 5;
+$space-7: $space-base * 8;
+$space-8: $space-base * 12;
+$space-9: $space-base * 18;

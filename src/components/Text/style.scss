@@ -1,0 +1,115 @@
+@use "theme" ;
+//**************************** Headline styles
+//********************************************
+.text {
+  // overflow: hidden;
+  overflow-wrap: break-word;
+  text-align: left;
+  font-weight: 700;
+  // line-height: 1.25;
+  margin: unset;
+  a:visited {
+    color: theme.$color-secondary-700;
+  }
+}
+.block-type{
+  display: block;
+  // padding-bottom: 7.5px;
+}
+.leading-1{
+  // display: block;
+  padding-bottom: 7.5px;
+}
+.leading-2{
+  // display: block;
+  padding-bottom: 15px;
+}
+.leading-3{
+  // display: block;
+  padding-bottom: 30px;
+}
+.inline-type{
+  display: inline
+}
+.screamer{
+    font-size: theme.$font-size-up-3;
+}
+.title{
+  font-size: theme.$font-size-up-3;
+  // padding-bottom: 15px;
+  // color: theme.$color-primary-700;
+}
+.sectionHead{
+  font-size: theme.$font-size-up-2;
+  padding-bottom: 0;
+  line-height: 1;
+  color: theme.$color-dark-gray-500;
+}
+.heading {
+  font-size: theme.$font-size-up-1;
+}
+.heading.small-heading{
+  font-size: theme.$font-size-default;
+}
+.subHeading{
+  font-size: theme.$font-size-default;
+}
+.kicker{
+  font-size: theme.$font-size-default;
+}
+.deck{
+    font-size: theme.$font-size-down-1;
+}
+.meta{
+    font-size: theme.$font-size-down-2;
+    font-weight: 400;
+}
+.iconText{
+  display: flex;
+  align-items: stretch;
+}
+.text--weight--light {
+  font-weight: 300;
+}
+.text--weight--regular {
+  font-weight: 400;
+}
+.text--weight--bold {
+  font-weight: 700;
+}
+.text--weight--black {
+  font-weight: 800;
+}
+.text .iconClass{
+  position: relative;
+  // color: theme.$color-mid-gray-800;
+  top: 1px;
+}
+.label-text{
+  font-size: theme.$font-size-default;
+  font-weight: 400;
+  // margin-bottom: 5px;
+}
+.label-text-label{
+  font-size: theme.$font-size-down-2;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 2px;
+  color: theme.$color-primary-500;
+  font-style: normal;
+}
+.kicker:last-child,
+.screamer:last-child,
+.deck:last-child,
+.rider:last-child{
+  padding-bottom: 0;
+}
+.type-deck em{
+  font-style: normal;
+  font-weight: 700;
+}
+sup{
+  position: relative;
+  font-size: 50%;
+  top: -0.6em;
+}

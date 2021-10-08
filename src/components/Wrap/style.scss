@@ -1,0 +1,38 @@
+@use "theme" ;
+/*********************** WRAP
+*****************************/
+.wrap{
+  width: 100%;
+  margin: 0 auto;
+  @include theme.breakpoint(large){
+      width: theme.$wrap-width;
+      max-width: theme.$wrap-max;
+  }
+}
+
+.wrap--extra-small{
+  @include theme.breakpoint(large){
+      max-width:  theme.$wrap-width-extra-small;
+  }
+}
+
+.wrap--small{
+  @include theme.breakpoint(large){
+    max-width:  theme.$wrap-width-small;
+  }
+}
+.wrap--medium{
+  @include theme.breakpoint(medium){
+    max-width:  theme.$wrap-width-medium;
+  }
+}
+.wrap--large {
+  @include theme.breakpoint(large){
+    max-width: theme.$wrap-width-large;
+  }
+}
+.wrap--extra-large {
+  @include theme.breakpoint(large){
+    max-width: theme.$wrap-max;
+  }
+}

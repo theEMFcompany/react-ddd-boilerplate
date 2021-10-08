@@ -1,0 +1,25 @@
+@use "theme";
+
+.formSchemaEditor__addFieldArea {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  // margin: theme.$space-5 0;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.formSchemaEditor__addFieldArea__button {
+  display: inline-block;
+  margin-right: 7.5px;
+  border-radius: 50%;
+  height: 24px;
+  width: 24px;
+  background-color: theme.$color-dark-gray-900;
+}
+
+.formSchemaEditor__addFieldArea__label {
+  text-decoration: underline;
+  // font-size: theme.$font-size-up-1;
+}

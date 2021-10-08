@@ -1,0 +1,31 @@
+@each $color, $color-value in $site-colors {
+  .bg {
+    @each $shade, $shade-value in $color-value {
+      &-#{$color}-#{$shade} {
+        background-color: $shade-value;
+      }
+    }
+  }
+  .color {
+    @each $shade, $shade-value in $color-value {
+      &-#{$color}-#{$shade} {
+        color: $shade-value;
+      }
+    }
+  }
+  .border {
+    @each $shade, $shade-value in $color-value {
+      &-#{$color}-#{$shade} {
+        color: $shade-value;
+      }
+    }
+  }
+  .icon-color {
+    @each $shade, $shade-value in $color-value {
+      &-#{$color}-#{$shade} {
+        --layer1: #{$shade-value};
+        --layer2: #{$shade-value};
+      }
+    }
+  }
+}

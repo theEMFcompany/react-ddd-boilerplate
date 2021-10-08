@@ -1,0 +1,15 @@
+@use 'theme';
+
+.toggleField {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: theme.$global-padding;
+}
+.toggleField--label {
+  margin-left: theme.$space-3;
+  &:hover {
+    cursor: pointer;
+  }
+}

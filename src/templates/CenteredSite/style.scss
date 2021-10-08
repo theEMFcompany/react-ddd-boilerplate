@@ -1,0 +1,22 @@
+@use "theme";
+
+.centeredSite {
+  background-color: theme.$color-light-gray-100;
+  .centeredSite__siteHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .centeredSite__siteHeader__logo {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: 70px auto;
+    background-position: center;
+    background-image: url('../../assets/img/logo--fullColour--iconOnly.png');
+    margin-bottom: 25px;
+  }
+  min-height: 100%;
+  padding: 50px 0;
+}

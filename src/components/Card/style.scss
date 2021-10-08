@@ -1,0 +1,44 @@
+@use "theme";
+.card{
+  background: #fff;
+  border: 1px solid theme.$color-light-gray-100;
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: stretch;
+  box-shadow: theme.$shadow-z10;
+}
+.card--shrink{
+  max-width: 520px;
+  @include theme.breakpoint(medium){
+    margin: 0 auto;
+    min-width: 520px;
+  }
+}
+.card__header{
+  padding: 30px;
+  border-bottom: 1px solid theme.$color-light-gray;
+}
+.card__section{
+  padding: 30px;
+  background-color: theme.$color-white;
+  border-bottom: 1px solid theme.$color-light-gray;
+  flex: 1;
+}
+.card__section:last-of-type{
+  border-bottom: 0;
+}
+.card__footer {
+  padding: 30px;
+}
+.card--hoverable{
+  position: relative;
+  transition: transform 500ms ease-in-out;
+}
+.card--hoverable:hover{
+  transform: translateY(-2%);
+  box-shadow: theme.$shadow-z3;
+  cursor: pointer;
+}

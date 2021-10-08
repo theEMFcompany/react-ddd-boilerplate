@@ -1,0 +1,8 @@
+//***************import foundation core styles
+//********************************************
+@use "animation";
+@forward "variables";
+@forward "foundation/config";
+//*************************Import Google Fonts
+//********************************************
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap');

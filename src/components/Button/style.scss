@@ -1,0 +1,226 @@
+@use "theme" ;
+.button{
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  font-weight: 700;
+  white-space: nowrap;
+  line-height: 1;
+  text-decoration: none;
+  // border-width: 1px;
+  // border-style: solid;
+  // border-color: inherit;
+  text-transform: uppercase;
+  border: none;
+  border-image: none ;
+  border-radius: theme.$edge-radius;
+  max-width: theme.$wrap-width-small;
+  transition: opacity 0.25s ease-in-out,
+              box-shadow 0.25s ease-in-out,
+              color 0.25s ease-in-out;
+  @include theme.breakpoint(medium){
+    display: inline-block;
+  }
+}
+.button--margin{
+  margin-bottom: 15px;
+}
+.button.button:hover{
+  cursor: pointer;
+}
+.button.button--disabled{
+  background-color: theme.$color-light-gray-200;
+  color: theme.$color-white;
+  border: 1px solid theme.$color-light-gray-200;
+}
+.button.button--disabled:hover{
+  background-color: theme.$color-light-gray-100;
+  color: theme.$color-white;
+  border: 1px solid theme.$color-light-gray-100;
+  cursor: not-allowed;
+}
+.button--small{
+  font-size: theme.$font-size-down-3;
+  // min-width: 80px;
+  // max-width: 160px;
+  padding-top: 7.5px;
+  padding-bottom: 5.5px;
+  padding-right: 7.5px;
+  padding-left: 7.5px;
+}
+.button--small .button__icon--left~span{
+  margin-left: 15px;
+}
+.button--small .button__icon--right~span{
+  margin-right: 15px;
+}
+.button--medium{
+  font-size: theme.$font-size-down-2;
+  line-height: theme.$font-size-down-1;
+  padding-top: 14px;
+  padding-bottom: 12px;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+.button--large{
+  font-size: theme.$font-size-default;
+  max-width: theme.$wrap-width-medium;
+  padding-top: 20px;
+  padding-bottom: 18px;
+  padding-right: 36px;
+  padding-left: 36px;
+}
+.button--stretch{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.buttonGroup{
+  box-sizing: border-box;
+  display: inline-block!important;
+  @include theme.breakpoint(medium){
+    flex: 1;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 0!important;
+  }
+}
+.buttonGroup__wrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: theme.$space-5 0;
+  .button {
+    margin-right: theme.$space-4;
+  }
+}
+.buttonGroup__wrapper--start {
+  justify-content: flex-start;
+}
+.buttonGroup__wrapper--end {
+  justify-content: flex-end;
+}
+.buttonGroup__wrapper--center {
+  justify-content: center;
+}
+
+.buttonGroup:last-child{
+  @include theme.breakpoint(medium){
+    margin-right: 0!important;
+  }
+}
+
+.buttonGroup:first-child{
+  @include theme.breakpoint(medium){
+    margin-left: 0!important;
+  }
+}
+.button.hollow {
+  border-width: 1px;
+  border-style: solid;
+}
+
+.button.solid-neutral {
+  background-color: theme.$color-dark-gray-900;
+  border-color: theme.$color-dark-gray-900;
+  color: theme.$color-white;
+  // font-weight: 400;
+}
+.button.solid-neutral:hover {
+  opacity: 0.8;
+}
+.button.solid-neutral:disabled {
+  opacity: 0.4;
+}
+
+// defalut hollow button
+.button.hollow-neutral{
+  border-color: theme.$color-dark-gray-800;
+  color: theme.$color-dark-gray-800;
+}
+
+.button.hollow-neutral:hover {
+  opacity: 0.7\8;
+}
+
+.button.hollow-neutral:disabled {
+  opacity: 0.4;
+}
+// primary solid button
+.button.solid-primary {
+  background: theme.$color-primary-500;
+  color: theme.$color-white;
+  opacity: 1;
+  border: 1px solid theme.$color-primary-500;
+}
+.button.solid-primary:hover {
+  opacity: 0.9;
+  border-color: theme.$color-primary-500;
+  color: theme.$color-white;
+  box-shadow: theme.$shadow-z2;
+}
+.button.solid-primary:disabled{
+  background-color: theme.$color-primary-tinted;
+  border-color: theme.$color-primary-tinted;
+  color: theme.$color-white;
+}
+// primary hollow button
+.button.hollow-primary{
+  border-color: theme.$color-primary-500;
+  color: theme.$color-primary-500;
+}
+.button.hollow-primary:hover{
+  border-color: theme.$color-primary-shaded;
+  color: theme.$color-primary-shaded;
+}
+.button.hollow-primary:disabled{
+  border-color: theme.$color-primary-tinted;
+  color: theme.$color-primary-tinted;
+}
+// Secondary solid button
+.button.solid-secondary{
+  background-color: theme.$color-secondary-900;
+  border-color: theme.$color-secondary-900;
+  color: theme.$color-white;
+}
+.button.solid-secondary:hover{
+  background-color: theme.$color-secondary-shaded;
+  border-color: theme.$color-secondary-900;
+  color: theme.$color-white;
+}
+.button.solid-secondary:disabled{
+  background-color: theme.$color-secondary-tinted;
+  border-color: theme.$color-secondary-tinted;
+  color: theme.$color-white;
+}
+// Secondary hollow button
+.button.hollow-secondary{
+  border-color: theme.$color-secondary-900;
+  color: theme.$color-secondary-500;
+}
+.button.hollow-secondary:hover{
+  border-color: theme.$color-secondary-shaded;
+  color: theme.$color-secondary-shaded;
+}
+.button.hollow-secondary:disabled{
+  border-color: theme.$color-secondary-tinted;
+  color: theme.$color-secondary-tinted;
+}
+.button__icon{
+  position: absolute;
+}
+.button__icon--left{
+  left: 15px;
+}
+.button__icon--right{
+  right: 15px;
+}
+.button__icon--center{
+  margin: 5px auto;
+  right: 15px;
+}
+.button--small .button__icon--left{
+  left: 7.5px;
+}
+.button--small .button__icon--right{
+  right: 7.5px;
+}

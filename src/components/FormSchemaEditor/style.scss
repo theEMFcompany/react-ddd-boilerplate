@@ -1,0 +1,13 @@
+@use "theme";
+@import "./SupportedFields/style";
+@import "./AddButton/style";
+@import "./InsertBlock/style";
+
+.formSchemaEditor {
+  margin: theme.$space-5 0;
+}
+.formSchemaEditor__titleArea,
+.formSchemaEditor__fieldsArea{
+  margin-bottom: theme.$space-5;
+}
+

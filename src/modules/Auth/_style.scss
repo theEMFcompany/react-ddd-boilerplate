@@ -1,0 +1,52 @@
+.authModal{
+  position: relative;
+  min-height: 360px;
+}
+.authForm-wrapper{
+  position: relative;
+  display: block;
+  width: 100%;
+}
+.authForm{
+  // position: absolute;
+  width: 100%;
+}
+.auth-footer{
+  padding-top: 15px;
+  text-align: center;
+}
+.auth-footer span{
+  border-bottom: 1px dotted $color-dark-2;
+  color: $color-dark-2;
+  padding-bottom: 1.75px;
+}
+.auth-footer span:hover{
+  cursor: pointer;
+  border-bottom: 1px dotted $color-primary-2;
+  color: $color-primary-2;
+}
+.forgot-password-link{
+  position: relative;
+  right: 0;
+  top: -25px;
+  font-size: $font-size-down-2;
+}
+.forgot-password-link:hover{
+  cursor: pointer;
+}
+.facebook-login-button{
+  color: $color-white;
+  background-color: #4267b2;
+  padding: 15px 30px;
+  width: 60%;
+  margin: 0 auto 60px;
+  border-radius: 5000px;
+  font-weight: $global-weight-bold;
+}
+.facebook-login-button i{
+  margin-right: 7.5px;
+}
+.facebook-login-button:hover{
+  cursor: pointer;
+  background-color: #375d9b;
+}

@@ -1,0 +1,21 @@
+@function config-get($keys...) {
+  $map: ();
+
+  @if type-of(nth($keys, 1)) == map {
+    $map: nth($keys, 1);
+  } @else {
+    $map: $configuration;
+  }
+
+  @each $key in $keys {
+    @if type-of($key) != map {
+      @if map-has-key($map, $key) {
+        $map: map-get($map, $key);
+      } @else {
+        @error "Missing Config key: #{$keys}";
+      }
+    }
+  }
+
+  @return $map;
+}

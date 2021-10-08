@@ -1,0 +1,25 @@
+@use "theme" ;
+// .full-page-wrap{
+//   background-color: theme.$color-white;
+//   // background: $radial-gradient-primary-2;
+//   // background-size: 300vw 300vh;
+//   // background-position: -100vw -120vh;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+//   align-items: stretch;
+//   min-height: 100%;
+//   max-width: $box-width;
+//   margin: 0 auto;
+//   // padding-bottom: 160px;
+//   // padding: 60px 60px 0 60px;
+// }
+.onboardWrapper {
+  min-height: 100%;
+}
+.onboardContent {
+  padding: 15px;
+  @include theme.breakpoint(medium){
+    padding: 0;
+  }
+}

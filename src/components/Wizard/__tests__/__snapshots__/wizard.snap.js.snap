@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Wizard renders the right children 1`] = `
+<div
+  className="wizard-wrapper"
+>
+  <header
+    className="wizard-steps"
+  >
+    <span
+      className="wizard-step  wizard-step--first  wizard-step--active"
+    >
+      <span
+        className="wizard-step-countWrapper"
+      >
+        <span
+          className="wizard-step-count"
+        >
+          1
+        </span>
+      </span>
+      <span
+        className="wizard-step-label"
+      >
+        1
+      </span>
+    </span>
+    <span
+      className="wizard-step wizard-step--last   "
+    >
+      <span
+        className="wizard-step-divider"
+      />
+      <span
+        className="wizard-step-countWrapper"
+      >
+        <span
+          className="wizard-step-count"
+        >
+          2
+        </span>
+      </span>
+      <span
+        className="wizard-step-label"
+      >
+        2
+      </span>
+    </span>
+  </header>
+  <div
+    className="wizard-viewWrapper"
+  >
+    <div
+      className="wizard-body"
+    >
+      1
+    </div>
+  </div>
+  <footer
+    className="wizard-actions"
+  >
+    <div
+      className="buttonGroup__wrapper  "
+    >
+      <button
+        className="solid solid-primary button  button--large  "
+        onClick={[Function]}
+        type="button"
+      />
+      <button
+        className="solid solid-primary button  button--large  "
+        onClick={[Function]}
+        type="button"
+      >
+        Save
+      </button>
+      <button
+        className="solid solid-primary button  button--large  "
+        onClick={[Function]}
+        type="button"
+      />
+    </div>
+  </footer>
+</div>
+`;

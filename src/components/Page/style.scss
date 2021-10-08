@@ -1,0 +1,88 @@
+@use "theme" ;
+.pageContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  width: 100%;
+  min-height: 100%;
+  @include theme.breakpoint(medium){
+    flex-direction: row;
+  }
+}
+.page {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: stretch;
+  width: 100%;
+  min-height: 100%;
+  flex-direction: column;
+}
+.pageHeader {
+  background-color: theme.$color-white;
+  border-bottom: 1px solid theme.$color-light-gray-900;
+  >section {
+    padding: theme.$global-padding;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    @include theme.breakpoint(medium){
+      width: theme.$wrap-width;
+      max-width: theme.$wrap-max;
+    }
+  }
+}
+.pageContent{
+  flex: 1;
+  background-color: theme.$color-white;
+  padding: 30px theme.$global-padding;
+  >section {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    @include theme.breakpoint(medium){
+      width: theme.$wrap-width;
+      max-width: theme.$wrap-max;
+    }
+  }
+}
+.sideBar {
+  width: 100%;
+  background-color: theme.$color-white;
+  border-bottom: 1px solid theme.$color-light-gray-900;
+  @include theme.breakpoint(medium){
+    border-right: 1px solid theme.$color-light-gray-900;
+    border-bottom: none;
+    width: 360px;
+  }
+}
+.sideBarHeader {
+  padding: theme.$global-padding;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid theme.$color-light-gray-900;
+}
+.sideBarContent{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: theme.$color-white;
+  padding: theme.$global-padding;
+  @include theme.breakpoint(medium){
+    min-height: 400px;
+  }
+}
+.sideBarFooter {
+  padding: 30px theme.$global-padding;
+  border-top: 1px solid theme.$color-light-gray-900;
+  border-bottom: 1px solid theme.$color-light-gray-900;
+  @include theme.breakpoint(medium){
+    border-bottom: none;
+  }
+}

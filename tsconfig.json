@@ -1,0 +1,35 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"allowJs": true,
+		"noEmit": true,
+		"strict": true,
+		"isolatedModules": true,
+		"esModuleInterop": true,
+		"jsx": "react",
+		"rootDirs": [
+		  "./src"
+		],
+		"pretty": true,
+		"preserveConstEnums": true,
+		"baseUrl": "./src",
+		"paths": {
+		   "*": [ "types/*", "*" ]
+		},
+		"typeRoots": [
+		  "node_modules/@types",
+		  "./src/types"
+		]
+	},
+	"include": [
+	  "./src/**/*.tsx",
+	  "./src/**/*.ts",
+	  "./src/**/*.jsx",
+	  "./src/**/*.js"
+	],
+	"exclude": [
+	  "node_modules"
+	]
+}

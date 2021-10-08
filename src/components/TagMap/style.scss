@@ -1,0 +1,71 @@
+@use "theme" ;
+.tagMap{
+  width: 100%;
+  @include theme.breakpoint(medium){
+    max-width: theme.$form-width;
+  }
+}
+.tagField{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: theme.$color-light-gray-100;
+  padding-right: 7.5px;
+}
+.tagMap .field-wrap{
+  width: auto;
+  flex: 1;
+}
+.tagMap .field-wrap::after{
+  display: none;
+}
+.tagMap-itemWrap{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: -7.5px;
+  margin-right: -7.5px;
+  align-items: flex-start;
+  padding-top: 15px;
+  flex-wrap: wrap;
+}
+.tagMap-item{
+  white-space: nowrap;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 7.5px 15px 7.5px 7.5px;
+  border-radius: 4px;
+  border: 1px solid theme.$color-light-gray-400;
+  background-color: theme.$color-light-gray-300;
+  margin: 7.5px;
+  font-size: theme.$font-size-down-1;
+  animation: theme.$fade-in;
+}
+.tagMap-item.tagMap-item--outOfRange{
+  border: 1px solid theme.$color-light-gray-400;
+  background-color: theme.$color-light-gray-600;
+  color: theme.$color-light-gray-400;
+}
+.tagMap-item.tagMap-item--outOfRange > .removeTagButton{
+  background-color: theme.$color-light-gray-400;
+}
+.tagMap-item:last-of-type{
+  // margin-right: 0;
+}
+.tagMap-item > .removeTagButton {
+  display: inline-block;
+  margin-right: 7.5px;
+  background-color: theme.$color-primary-500;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+}
+.tagMap-item > .tagLabel {
+  display: inline-block;
+}
+.tagMap-item > .removeTagButton:hover{
+  cursor: pointer;
+}
+.tagMap-header{
+  margin-bottom: 30px;
+}

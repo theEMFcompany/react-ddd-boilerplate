@@ -1,0 +1,99 @@
+@use "theme" ;
+/******************** Wizard Step
+***********************************/
+  .wizard-step{
+    display: flex;
+    flex-direction: column;
+    // flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 15px;
+    @include theme.breakpoint(medium){
+      flex-direction: row;
+      flex: 1;
+    }
+  }
+  // .wizard-step--last{
+    // width:inherit;
+  // }
+  .wizard-step--first{
+    // flex: 0;
+    // align-items: stretch;
+    @include theme.breakpoint(medium){
+      flex: 0;
+    }
+  }
+  .wizard-step-divider{
+    border: 0;
+    border-left: 1px solid theme.$color-mid-gray-100;
+    height: 100px;
+    margin-bottom: 15px;
+    @include theme.breakpoint(medium){
+      border-bottom: 1px solid theme.$color-mid-gray-100;
+      border-left: none;
+      flex: 1;
+      margin-left: 7.5px;
+      margin-right: 7.5px;
+      margin-bottom: 0;
+      height: 0;
+    }
+  }
+  .wizard-step-countWrapper{
+    box-sizing: border-box;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    font-size:  theme.$font-size-down-2;
+    border: 1px solid theme.$color-mid-gray-100;
+    text-align: center;
+    color: theme.$color-mid-gray-900;
+  }
+  .wizard-step-count{
+    position: relative;
+    font-weight: theme.$global-weight-bold;
+    // top: 10px;
+  }
+  .wizard-step-label{
+    display: none;
+    @include theme.breakpoint(medium){
+      display: block;
+      white-space: nowrap;
+      margin-left: 7.5px;
+      margin-left: 7.5px;
+      text-align: center;
+      line-height: 1.2;
+      color: theme.$color-mid-gray-900;
+      font-weight: theme.$global-weight-bold;
+      font-size: theme.$font-size-down-1;
+    }
+  }
+  .wizard-step--done .wizard-step-countWrapper{
+    border: 1px theme.$color-mid-gray-700;
+    background: theme.$color-mid-gray-700;
+    color: theme.$color-white;
+    font-weight: theme.$global-weight-bold;
+  }
+  .wizard-step--done .wizard-step-label{
+    color: theme.$color-mid-gray-900;
+    font-weight: theme.$global-weight-bold;
+  }
+  .wizard-step--active .wizard-step-count{
+    position: relative;
+  }
+  .wizard-step--active .wizard-step-countWrapper{
+    box-sizing: border-box;
+    font-size: theme.$font-size-default;
+    border: 1px solid theme.$color-primary-500;
+    background: theme.$color-primary-500;
+    color: theme.$color-white;
+    font-weight: theme.$global-weight-bold;
+  }
+  .wizard-step--active .wizard-step-label{
+    color: theme.$color-dark-gray-500;
+    font-weight: theme.$global-weight-bold;
+  }

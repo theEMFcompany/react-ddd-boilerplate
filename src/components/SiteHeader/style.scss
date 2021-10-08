@@ -1,0 +1,64 @@
+@use "theme";
+
+.siteHeader{
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.siteHeader--fixed{
+  top: 0;
+  position: fixed;
+}
+
+.siteHeader__wrap {
+  width: 100%;
+  max-width: theme.$wrap-max;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.siteHeader__wrap--fullWidth {
+  max-width: 100%;
+}
+
+.siteHeader__logoArea{
+  height:auto;
+  flex: 1;
+  // padding: 15px 0;
+}
+
+.siteHeader__logoArea__logo{
+  display: block;
+  height: 70px;
+  width: 180px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: auto 50px;
+  background-position: 0 48%;
+  @include theme.breakpoint(medium){
+    background-size: 165px auto;
+  }
+}
+
+.sideHeader__menuArea{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  &__menu--mobile{
+    display: block;
+    @include theme.breakpoint(medium){
+      display: none;
+    }
+  }
+
+  &__menu {
+    display: none;
+    @include theme.breakpoint(medium){
+      display: block;
+    }
+  }
+}

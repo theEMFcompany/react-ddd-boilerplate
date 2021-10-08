@@ -1,0 +1,400 @@
+<svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="add-1">
+    <title>Add</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="4" d="M32 16v32m16-16H16"
+    stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="minus-1">
+    <title>Minus</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="4" d="M48 32H16"
+    stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="close-1">
+    <title>Close</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="4" d="M41.999 20.002l-22 22m22 0L20 20"
+    stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="checkmark-1">
+    <title>Checkmark</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="4" d="M16 33l11 11 21-22"
+    stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="angle-down-1">
+    <title>Angle Down</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="4" d="M20 26l11.994 14L44 26"
+    stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="angle-up-1">
+    <title>Angle Up</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="4" d="M20 40l11.994-14L44 40"
+    stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="angle-left-1">
+    <title>Angle Left</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="4" d="M39 20.006L25 32l14 12.006"
+    stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="angle-right-1">
+    <title>Angle Right</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="4" d="M26 20.006L40 32 26 44.006"
+    stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrow-up-1">
+    <title>Arrow Up</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="4" d="M32.001 14v36"
+    stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+    <path data-name="layer1" fill="none" stroke="#202020" stroke-miterlimit="10"
+    stroke-width="4" d="M46 28L32 14 18 28" stroke-linejoin="round" stroke-linecap="round"
+    style="stroke:var(--layer1, #202020)"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrow-down-1">
+    <title>Arrow Down</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="4" d="M31.999 50V14"
+    stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+    <path data-name="layer1" fill="none" stroke="#202020" stroke-miterlimit="10"
+    stroke-width="4" d="M18 36l14 14 14-14" stroke-linejoin="round" stroke-linecap="round"
+    style="stroke:var(--layer1, #202020)"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrow-left-1">
+    <title>Arrow Left</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="4" d="M14 31.998h36"
+    stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+    <path data-name="layer1" fill="none" stroke="#202020" stroke-miterlimit="10"
+    stroke-width="4" d="M28 18L14 32l14 14" stroke-linejoin="round" stroke-linecap="round"
+    style="stroke:var(--layer1, #202020)"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrow-right-1">
+    <title>Arrow Right</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="4" d="M50 31.998H14"
+    stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+    <path data-name="layer1" fill="none" stroke="#202020" stroke-miterlimit="10"
+    stroke-width="4" d="M36 18l14 14-14 14" stroke-linejoin="round" stroke-linecap="round"
+    style="stroke:var(--layer1, #202020)"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="menu-1">
+    <title>Menu</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="4" d="M14 18h36M14 32h36"
+    stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+    <path data-name="layer1" fill="none" stroke="#202020" stroke-miterlimit="10"
+    stroke-width="4" d="M14 46h36" stroke-linejoin="round" stroke-linecap="round"
+    style="stroke:var(--layer1, #202020)"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="text-checked-1">
+    <title>Text Checked</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="4" d="M2 8h60M2 24h60M2 40h24M2 56h24"
+    stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+    <path data-name="layer1" fill="none" stroke="#202020" stroke-miterlimit="10"
+    stroke-width="4" d="M35 45l8 9 16-16" stroke-linejoin="round" stroke-linecap="round"
+    style="stroke:var(--layer1, #202020)"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="search-magnify-1">
+    <title>Search Magnify</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="4" d="M38.192 38.191L50 50"
+    stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+    <circle data-name="layer1" cx="29" cy="29" r="13" fill="none" stroke="#202020"
+    stroke-miterlimit="10" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"
+    style="stroke:var(--layer1, #202020)"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="checked-circle-1">
+    <title>Checked Circle</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <circle data-name="layer2"
+    cx="32" cy="32" r="30" transform="rotate(-45 32 32)" fill="none" stroke="#202020"
+    stroke-miterlimit="10" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"
+    style="stroke:var(--layer1, #202020)"></circle>
+    <path data-name="layer1" fill="none" stroke="#202020" stroke-miterlimit="10"
+    stroke-width="4" d="M20.998 32.015l8.992 8.992 16.011-16.011" stroke-linejoin="round"
+    stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="checkbox-confirm-circle-1">
+    <title>Checkbox Confirm Circle</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="4" d="M15.74 30l12 14 34-42"
+    stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+    <path data-name="layer1" d="M53.443 32A26.002 26.002 0 1 1 27.75 10a25.914 25.914 0 0 1 10 1.993"
+    fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="4" stroke-linejoin="round"
+    stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="delete-circle-1">
+    <title>Delete Circle</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <circle data-name="layer2"
+    cx="32.001" cy="32" r="30" transform="rotate(-45 32.001 32)" fill="none"
+    stroke="#202020" stroke-miterlimit="10" stroke-width="4" stroke-linejoin="round"
+    stroke-linecap="round" style="stroke:var(--layer1, #202020)"></circle>
+    <path data-name="layer1" fill="none" stroke="#202020" stroke-miterlimit="10"
+    stroke-width="4" d="M42.999 21.001l-22 22m22 0L21 21" stroke-linejoin="round"
+    stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="rotate-right-1">
+    <title>Rotate Right</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M53.832 34.947a26.016 26.016 0 1 0-7.45 15.432" fill="none" stroke="#202020"
+    stroke-miterlimit="10" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"
+    style="stroke:var(--layer1, #202020)"></path>
+    <path data-name="layer1" fill="none" stroke="#202020" stroke-miterlimit="10"
+    stroke-width="4" d="M62 23l-8.168 11.947L43.014 25" stroke-linejoin="round"
+    stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="rotate-left-1">
+    <title>Rotate Left</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M10.168 34.947a26.016 26.016 0 1 1 7.45 15.432" fill="none" stroke="#202020"
+    stroke-miterlimit="10" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"
+    style="stroke:var(--layer1, #202020)"></path>
+    <path data-name="layer1" fill="none" stroke="#202020" stroke-miterlimit="10"
+    stroke-width="4" d="M2 23l8.168 11.947L20.986 25" stroke-linejoin="round"
+    stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="repeat-1">
+    <title>Repeat</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="4" d="M43 24l12-9.998L43 4"
+    stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+    <path data-name="layer1" fill="none" stroke="#202020" stroke-miterlimit="10"
+    stroke-width="4" d="M21 40L9 50.001 21 60" stroke-linejoin="round" stroke-linecap="round"
+    style="stroke:var(--layer1, #202020)"></path>
+    <path data-name="layer2" d="M3.025 38.004A17.962 17.962 0 0 1 2 32.002a18 18 0 0 1 18-18h35"
+    fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="4" stroke-linejoin="round"
+    stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+    <path data-name="layer1" d="M60.977 26.002a17.956 17.956 0 0 1 1.023 6 18 18 0 0 1-18 18H9"
+    fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="4" stroke-linejoin="round"
+    stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+  </symbol>
+  <symbol viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" id="undo-1">
+    <title>Undo</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path stroke-width="4"
+    stroke-miterlimit="10" stroke-linecap="round" stroke="#202020" fill="none"
+    d="M3 46h44a15 15 0 0 0 15-15 15 15 0 0 0-15-15H2" data-name="layer2" stroke-linejoin="round"></path>
+    <path d="M16 34L3 46l13 12" stroke-width="4" stroke-miterlimit="10"
+    stroke-linecap="round" stroke="#202020" fill="none" data-name="layer1"
+    stroke-linejoin="round"></path>
+  </symbol>
+  <symbol viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" id="redo-1">
+    <title>Redo</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path stroke-width="4"
+    stroke-miterlimit="10" stroke-linecap="round" stroke="#202020" fill="none"
+    d="M61 18H17A15 15 0 0 0 2 33a15 15 0 0 0 15 15h45" data-name="layer2"
+    stroke-linejoin="round"></path>
+    <path d="M48 30l13-12L48 6" stroke-width="4" stroke-miterlimit="10"
+    stroke-linecap="round" stroke="#202020" fill="none" data-name="layer1"
+    stroke-linejoin="round"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="control-1">
+    <title>Control</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="4" d="M8 6v47m24-18v23m0-52v23m24-12v41m0-52v4.999"
+    stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+    <path data-name="layer1" fill="none" stroke="#202020" stroke-miterlimit="10"
+    stroke-width="4" d="M26 29h12v6H26zM2 53h12v6H2zm48-42h12v6H50z" stroke-linejoin="round"
+    stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="sliders-1">
+    <title>Sliders</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="4" d="M59 8H15m11.999 24H7m52 0H38.999M51 56H7"
+    stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+    <circle data-name="layer1" cx="9" cy="8" r="6" fill="none" stroke="#202020"
+    stroke-miterlimit="10" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"
+    style="stroke:var(--layer1, #202020)"></circle>
+    <circle data-name="layer1" cx="57" cy="56" r="6" fill="none"
+    stroke="#202020" stroke-miterlimit="10" stroke-width="4" stroke-linejoin="round"
+    stroke-linecap="round" style="stroke:var(--layer1, #202020)"></circle>
+    <circle data-name="layer1" cx="33" cy="32" r="6" fill="none"
+    stroke="#202020" stroke-miterlimit="10" stroke-width="4" stroke-linejoin="round"
+    stroke-linecap="round" style="stroke:var(--layer1, #202020)"></circle>
+  </symbol>
+  <symbol viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" id="favorite-1">
+    <title>Favorite</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path d="M32 46L15 57.9 22 38 6 26h20l6-19 6 19h20L43 38l6 20.1L32 46z"
+    stroke-width="4" stroke-miterlimit="10" stroke-linecap="round" stroke="#202020"
+    fill="none" data-name="layer1" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="home-1">
+    <title>Home</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    fill="none" stroke="#202020" stroke-linecap="round" stroke-miterlimit="10"
+    stroke-width="4" d="M2 31L32 5l30 26" stroke-linejoin="round" style="stroke:var(--layer2, #202020)"></path>
+    <path data-name="layer2" fill="none" stroke="#202020" stroke-linecap="round"
+    stroke-miterlimit="10" stroke-width="4" d="M54 19v-9h-9" stroke-linejoin="round"
+    style="stroke:var(--layer2, #202020)"></path>
+    <path data-name="layer1" fill="none" stroke="#202020" stroke-linecap="round"
+    stroke-miterlimit="10" stroke-width="4" d="M10 32.167V62h14V42h16v20h14V32.083"
+    stroke-linejoin="round" style="stroke:var(--layer2, #202020)"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="settings-1">
+    <title>Settings</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <circle data-name="layer2"
+    cx="32.106" cy="32.035" r="14" fill="none" stroke="#202020" stroke-linecap="round"
+    stroke-miterlimit="10" stroke-width="4" stroke-linejoin="round" style="stroke:var(--layer1, #202020)"></circle>
+    <path data-name="layer1" d="M60.2 27.264l-4.908-1.27a23.845 23.845 0 0 0-2.534-6.086l2.606-4.426a2.4 2.4 0 0 0-.371-2.915l-3.411-3.411a2.4 2.4 0 0 0-2.915-.371l-4.423 2.6a23.848 23.848 0 0 0-6.1-2.54L36.842 3.8A2.4 2.4 0 0 0 34.518 2h-4.825a2.4 2.4 0 0 0-2.323 1.8l-1.3 5.028a23.843 23.843 0 0 0-6.141 2.544L15.408 8.71a2.4 2.4 0 0 0-2.915.371l-3.412 3.412a2.4 2.4 0 0 0-.371 2.915l2.662 4.52a23.848 23.848 0 0 0-2.512 6.027L3.8 27.264A2.4 2.4 0 0 0 2 29.588v4.825a2.4 2.4 0 0 0 1.8 2.323l5.02 1.3a23.846 23.846 0 0 0 2.571 6.21l-2.6 4.423a2.4 2.4 0 0 0 .371 2.915l3.412 3.412a2.4 2.4 0 0 0 2.915.371l4.426-2.607a23.845 23.845 0 0 0 6.2 2.565L27.37 60.2a2.4 2.4 0 0 0 2.323 1.8h4.825a2.4 2.4 0 0 0 2.324-1.8l1.267-4.9a23.85 23.85 0 0 0 6.154-2.563l4.329 2.549a2.4 2.4 0 0 0 2.915-.371l3.412-3.412a2.4 2.4 0 0 0 .371-2.915l-2.549-4.329A23.845 23.845 0 0 0 55.332 38l4.869-1.26A2.4 2.4 0 0 0 62 34.413v-4.825a2.4 2.4 0 0 0-1.8-2.324z"
+    fill="none" stroke="#202020" stroke-linecap="round" stroke-miterlimit="10"
+    stroke-width="4" stroke-linejoin="round" style="stroke:var(--layer1, #202020)"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="delete-1">
+    <title>Delete</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="4" d="M54 12v50H10V12m-6 0h56m-40 0V2h24v10"
+    stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+    <path data-name="layer1" fill="none" stroke="#202020" stroke-miterlimit="10"
+    stroke-width="4" d="M32 22v30M22 22v30m20-30v30" stroke-linejoin="round"
+    stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="add-layer-1">
+    <title>Add Layer</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="4" d="M16 16h46v46H16z"
+    stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+    <path data-name="layer2" fill="none" stroke="#202020" stroke-miterlimit="10"
+    stroke-width="4" d="M16 48H2V2h46v14" stroke-linejoin="round" stroke-linecap="round"
+    style="stroke:var(--layer1, #202020)"></path>
+    <path data-name="layer1" fill="none" stroke="#202020" stroke-miterlimit="10"
+    stroke-width="4" d="M39 26v26m13-13H26" stroke-linejoin="round" stroke-linecap="round"
+    style="stroke:var(--layer1, #202020)"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="menu-hamburger-1">
+    <title>Menu Hamburger</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="4" d="M2 14h60M2 32h36"
+    stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+    <path data-name="layer1" fill="none" stroke="#202020" stroke-miterlimit="10"
+    stroke-width="4" d="M2 50h60" stroke-linejoin="round" stroke-linecap="round"
+    style="stroke:var(--layer1, #202020)"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="justify-1">
+    <title>Justify</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="4" d="M2 4h60M2 12h60"
+    stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+    <path data-name="layer1" d="M2 44h60" fill="none" stroke="#202020"
+    stroke-miterlimit="10" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"
+    style="stroke:var(--layer1, #202020)"></path>
+    <path data-name="layer2" fill="none" stroke="#202020" stroke-miterlimit="10"
+    stroke-width="4" d="M2 20h60" stroke-linejoin="round" stroke-linecap="round"
+    style="stroke:var(--layer1, #202020)"></path>
+    <path data-name="layer1" d="M2 52h60M2 36h60" fill="none" stroke="#202020"
+    stroke-miterlimit="10" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"
+    style="stroke:var(--layer1, #202020)"></path>
+    <path data-name="layer2" d="M2 28h60" fill="none" stroke="#202020"
+    stroke-miterlimit="10" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"
+    style="stroke:var(--layer1, #202020)"></path>
+    <path data-name="layer1" d="M2 60h30" fill="none" stroke="#202020"
+    stroke-miterlimit="10" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"
+    style="stroke:var(--layer1, #202020)"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="portfolio-grid-1">
+    <title>Portfolio Grid</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="4" d="M2 2h12v12H2zm24 0h12v12H26zm24 0h12v12H50zM2 50h12v12H2z"
+    stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+    <path data-name="layer1" fill="none" stroke="#202020" stroke-miterlimit="10"
+    stroke-width="4" d="M26 50h12v12H26zm24 0h12v12H50z" stroke-linejoin="round"
+    stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+    <path data-name="layer2" fill="none" stroke="#202020" stroke-miterlimit="10"
+    stroke-width="4" d="M2 25.988h12v12H2z" stroke-linejoin="round" stroke-linecap="round"
+    style="stroke:var(--layer1, #202020)"></path>
+    <path data-name="layer1" fill="none" stroke="#202020" stroke-miterlimit="10"
+    stroke-width="4" d="M26 25.988h12v12H26zm24 0h12v12H50z" stroke-linejoin="round"
+    stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="edit-1">
+    <title>Edit</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="4" d="M56 2.4l-26.1 26-4 9.7 9.7-4.1 26-26L56 2.4z"
+    stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer2, #202020)"></path>
+    <path data-name="layer2" fill="none" stroke="#202020" stroke-miterlimit="10"
+    stroke-width="4" d="M34.4 11.6h-32v50h50v-32" stroke-linejoin="round" stroke-linecap="round"
+    style="stroke:var(--layer2, #202020)"></path>
+    <path data-name="layer1" fill="none" stroke="#202020" stroke-miterlimit="10"
+    stroke-width="4" d="M50.8 7.6l5.6 5.6" stroke-linejoin="round" stroke-linecap="round"
+    style="stroke:var(--layer2, #202020)"></path>
+  </symbol>
+  <symbol viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" id="pencil-1">
+    <title>Pencil</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path d="M43.815 20.184L19.232 44.767m0 13.175a9.319 9.319 0 0 1 0-13.175 9.315 9.315 0 0 1-13.174 0"
+    stroke-width="4" stroke-miterlimit="10" stroke="#202020" fill="none" data-name="layer1"
+    stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer2, #202020)"></path>
+    <path stroke-width="4" stroke-miterlimit="10" stroke="#202020"
+    fill="none" d="M56.167 21.007l3.533-3.529c3.641-3.639 2.7-8.6-.939-12.234S50.16.665 46.521 4.3l-3.528 3.533"
+    data-name="layer2" stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer2, #202020)"></path>
+    <path d="M50.402 26.772l5.765-5.765L42.993 7.833l-5.766 5.764"
+    stroke-width="4" stroke-miterlimit="10" stroke="#202020" fill="none" data-name="layer1"
+    stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer2, #202020)"></path>
+    <path d="M19.232 57.942l31.17-31.17-13.175-13.175-31.169 31.17L2 62l17.232-4.058z"
+    stroke-width="4" stroke-miterlimit="10" stroke="#202020" fill="none" data-name="layer1"
+    stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer2, #202020)"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="shutdown-1">
+    <title>Shutdown</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M44.01 13.216a24 24 0 1 1-24.012-.004" fill="none" stroke="#202020"
+    stroke-miterlimit="10" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"
+    style="stroke:var(--layer1, #202020)"></path>
+    <path data-name="layer1" fill="none" stroke="#202020" stroke-miterlimit="10"
+    stroke-width="4" d="M32 8v24" stroke-linejoin="round" stroke-linecap="round"
+    style="stroke:var(--layer1, #202020)"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="num-lock-key-1">
+    <title>Num Lock Key</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <rect data-name="layer2"
+    x="2" y="2" width="60" height="60" rx="7.8" ry="7.8" fill="none" stroke="#202020"
+    stroke-miterlimit="10" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"
+    style="stroke:var(--layer1, #202020)"></rect>
+    <path data-name="layer1" fill="none" stroke="#202020" stroke-miterlimit="10"
+    stroke-width="4" d="M16 16h32v32H16z" stroke-linejoin="round" stroke-linecap="round"
+    style="stroke:var(--layer1, #202020)"></path>
+    <path data-name="layer1" fill="none" stroke="#202020" stroke-miterlimit="10"
+    stroke-width="4" d="M26 28l6-4v16" stroke-linejoin="round" stroke-linecap="round"
+    style="stroke:var(--layer1, #202020)"></path>
+  </symbol>
+</svg>

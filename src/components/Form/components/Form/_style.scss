@@ -1,0 +1,10 @@
+@use "theme";
+.fieldWrap{
+  margin-bottom: 30px;
+}
+.form-error-message{
+  padding-top: 15px;
+  font-size: theme.$font-size-down-2;
+  font-weight: theme.$global-weight-bold;
+  color: theme.$color-danger;
+}

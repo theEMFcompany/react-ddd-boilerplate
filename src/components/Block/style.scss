@@ -1,0 +1,40 @@
+@use "theme" ;
+/*********************** BlOCK
+*****************************/
+.flexBlock {
+  display: flex;
+}
+.flexBlock--direction-x {
+  flex-direction: column;
+  @include theme.breakpoint(medium){
+    flex-direction: row;
+    flex-wrap: wrap;
+  };
+}
+.flexBlock--direction-y {
+  flex-direction: column;
+}
+.flexBlock--justify-center {
+  justify-content: center;
+}
+.flexBlock--align-center {
+  align-items: center;
+}
+.flexBlock--justify-start {
+  justify-content: flex-start;
+}
+.flexBlock--align-start {
+  align-items: flex-start;
+}
+.flexBlock--justify-end {
+  justify-content: flex-end;
+}
+.flexBlock--align-end {
+  align-items: flex-end;
+}
+.flexBlock--justify-stretch {
+  justify-content: stretch;
+}
+.flexBlock--align-stretch {
+  align-items: stretch;
+}

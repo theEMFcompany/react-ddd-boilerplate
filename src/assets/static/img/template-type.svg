@@ -1,0 +1,107 @@
+<svg width="0" height="0" class="hidden">
+  <symbol viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" id="design-1">
+    <title>Design</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path d="M33.353 22.629l-19.77-19.77-10.761 10.76L22.51 33.461"
+    stroke-width="2" stroke-miterlimit="10" stroke="#202020" fill="none" data-name="layer1"
+    stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer2, #202020)"></path>
+    <path d="M18.301 53.703l36.603-36.561-8.026-8.026-36.602 36.562-6.383 14.408 14.408-6.383zm36.603-36.561l6.274-6.267-8.026-8.025-6.274 6.266"
+    stroke-width="2" stroke-miterlimit="10" stroke="#202020" fill="none" data-name="layer2"
+    stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer2, #202020)"></path>
+    <path d="M30.502 41.516L49.984 61.15 60.93 50.205 41.381 30.656m2.137 23.856l5.496-5.498M15.892 26.791l6.055-6.057M37.48 48.547l4.502-4.501M9.588 20.439l4.443-4.441"
+    stroke-width="2" stroke-miterlimit="10" stroke="#202020" fill="none" data-name="layer1"
+    stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer2, #202020)"></path>
+    <path d="M10.276 45.678l8.025 8.025" stroke-width="2" stroke-miterlimit="10"
+    stroke="#202020" fill="none" data-name="layer2" stroke-linejoin="round"
+    stroke-linecap="round" style="stroke:var(--layer2, #202020)"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="megaphone-1">
+    <title>Megaphone</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M20 38c0 6 0 14 10 18" fill="none" stroke="#202020" stroke-miterlimit="10"
+    stroke-width="2" stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+    <path data-name="layer1" d="M20 18v20" fill="none" stroke="#202020"
+    stroke-miterlimit="10" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+    style="stroke:var(--layer1, #202020)"></path>
+    <path data-name="layer2" d="M56 34a6 6 0 1 0 0-12" fill="none"
+    stroke="#202020" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="round"
+    stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+    <path data-name="layer1" d="M22 38H8a6 6 0 0 1-6-6v-8a6 6 0 0 1 6-6h18A55 55 0 0 0 56 8v40a50.4 50.4 0 0 0-30-10z"
+    fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="round"
+    stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software-service-1">
+    <title>Software Service</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <circle data-name="layer2"
+    cx="18" cy="10" r="1" fill="none" stroke="#202020" stroke-linecap="round"
+    stroke-linejoin="round" stroke-width="2" style="stroke:var(--layer1, #202020)"></circle>
+    <circle data-name="layer2" cx="25" cy="10" r="1" fill="none"
+    stroke="#202020" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+    style="stroke:var(--layer1, #202020)"></circle>
+    <circle data-name="layer2" cx="32" cy="10" r="1" fill="none"
+    stroke="#202020" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+    style="stroke:var(--layer1, #202020)"></circle>
+    <path data-name="layer2" fill="none" stroke="#202020" stroke-linecap="round"
+    stroke-linejoin="round" stroke-width="2" d="M12 4h50v12H12zm28 42h22V16m-50 0v26"
+    style="stroke:var(--layer1, #202020)"></path>
+    <path data-name="layer1" fill="none" stroke="#202020" stroke-linecap="round"
+    stroke-linejoin="round" stroke-width="2" d="M2 42h10v18H2zm10 14c4 0 8 4 12 4h36c2 0 8.4-8-20-8-9.6 0-14-2-14-2"
+    style="stroke:var(--layer1, #202020)"></path>
+    <path data-name="layer1" d="M12 44c4 0 6-2 12-2s18 1 18 9v1" fill="none"
+    stroke="#202020" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+    style="stroke:var(--layer1, #202020)"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="message-app-1">
+    <title>Message App</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M38 42v16a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4V6a4 4 0 0 1 4-4h22M4 10h24M4 48h34"
+    fill="none" stroke="#202020" stroke-linecap="round" stroke-linejoin="round"
+    stroke-width="2" style="stroke:var(--layer1, #202020)"></path>
+    <circle data-name="layer2" cx="21" cy="55" r="1" fill="none" stroke="#202020"
+    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" style="stroke:var(--layer1, #202020)"></circle>
+    <path data-name="layer1" d="M59.4 2H30.6A2.6 2.6 0 0 0 28 4.6v18.8a2.6 2.6 0 0 0 2.6 2.6H38v7l7-7h14.4a2.6 2.6 0 0 0 2.6-2.6V4.6A2.6 2.6 0 0 0 59.4 2z"
+    fill="none" stroke="#202020" stroke-linecap="round" stroke-linejoin="round"
+    stroke-width="2" style="stroke:var(--layer1, #202020)"></path>
+    <circle data-name="layer1" cx="45" cy="14" r="1" fill="none" stroke="#202020"
+    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" style="stroke:var(--layer1, #202020)"></circle>
+    <circle data-name="layer1" cx="37" cy="14" r="1" fill="none"
+    stroke="#202020" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+    style="stroke:var(--layer1, #202020)"></circle>
+    <circle data-name="layer1" cx="53" cy="14" r="1" fill="none"
+    stroke="#202020" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+    style="stroke:var(--layer1, #202020)"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="analog-1">
+    <title>Analog</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="2" d="M16 12v34m16-11v16m0-39v17m16-8v30m0-39v2.999"
+    stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer2, #202020)"></path>
+    <path data-name="layer2" fill="none" stroke="#202020" stroke-miterlimit="10"
+    stroke-width="2" d="M27 29h10v6H27zM11 46h10v6H11zm32-31h10v6H43z" stroke-linejoin="round"
+    stroke-linecap="round" style="stroke:var(--layer2, #202020)"></path>
+    <path data-name="layer1" fill="none" stroke="#202020" stroke-miterlimit="10"
+    stroke-width="2" d="M2 2h60v60H2z" stroke-linejoin="round" stroke-linecap="round"
+    style="stroke:var(--layer2, #202020)"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="app-layout-1">
+    <title>App Layout</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    fill="none" stroke="#202020" stroke-linecap="round" stroke-linejoin="round"
+    stroke-width="2" d="M2 20v36h60V20m-44 0v36m0-20h44" style="stroke:var(--layer1, #202020)"></path>
+    <path data-name="layer1" fill="none" stroke="#202020" stroke-linecap="round"
+    stroke-linejoin="round" stroke-width="2" d="M2 8h60v12H2z" style="stroke:var(--layer1, #202020)"></path>
+    <circle data-name="layer1" cx="8" cy="14" r="1" fill="none" stroke="#202020"
+    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" style="stroke:var(--layer1, #202020)"></circle>
+    <circle data-name="layer1" cx="15" cy="14" r="1" fill="none"
+    stroke="#202020" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+    style="stroke:var(--layer1, #202020)"></circle>
+    <circle data-name="layer1" cx="22" cy="14" r="1" fill="none"
+    stroke="#202020" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+    style="stroke:var(--layer1, #202020)"></circle>
+  </symbol>
+</svg>

@@ -1,0 +1,51 @@
+@use "theme" ;
+  .clickbox {
+    border: 1px solid theme.$color-light-gray-900;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: theme.$edge-radius;
+    background: theme.$color-white;
+    color: theme.$color-mid-gray-900;
+    font-weight: 700;
+    box-shadow: none;
+    transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out, border 0.3s ease-in-out;
+  }
+  .clickbox.clickbox--noWrap {
+    padding: 15px;
+    margin: 0;
+    margin-bottom: 30px;
+    width: auto;
+    height: auto;
+  }
+  .clickbox .imageDeck {
+    height: 45px;
+    margin-bottom: 7.5px;
+    --layer1: #{theme.$color-mid-gray-900};
+    --layer2: #{theme.$color-mid-gray-900};
+  }
+  .clickbox--active,
+  .clickbox:hover,
+  .clickbox--active:hover {
+    .imageDeck {
+      --layer1: #{theme.$color-primary-200};
+      --layer2: #{theme.$color-primary-200};
+    }
+  }
+
+  .clickbox--active {
+    border: 2px solid theme.$color-primary-200;
+    color: theme.$color-primary-200;
+  }
+  .clickbox:hover, .clickbox--active:hover {
+    color: theme.$color-primary-200;
+    border: 2px solid theme.$color-primary-200;
+    box-shadow: theme.$shadow-z3;
+    cursor: pointer;
+  }

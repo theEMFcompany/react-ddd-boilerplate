@@ -1,0 +1,27 @@
+@use 'theme';
+.pagination-wrap{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.pagination button{
+    color: theme.$color-white;
+}
+.pagination .pagination-pageButton:hover{
+    background-color: theme.$color-white;
+    color: theme.$color-primary-500;
+    border-radius: theme.$edge-radius;
+    // cursor: pointer;
+}
+.pagination .current{
+    background-color: theme.$color-primary-500;
+    color: theme.$color-white;
+    border: 1px solid theme.$color-primary-500;
+    border-radius: theme.$edge-radius;
+    font-weight: theme.$global-weight-bold;
+}
+.pageRange {
+  em {
+    font-weight: 700;
+    font-style: normal;
+  }
+}

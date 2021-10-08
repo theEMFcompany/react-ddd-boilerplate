@@ -1,0 +1,85 @@
+@use "theme";
+.fieldSchemaEditor__insertBlock {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: theme.$space-2 0;
+  &:hover {
+    cursor: pointer;
+    .fieldSchemaEditor__insertBlock__insertActions {
+      visibility: visible;
+    }
+  }
+}
+.fieldSchemaEditor__insertBlock--isDraggingOver {
+  height: 150px;
+  visibility: visible;
+}
+.fieldSchemaEditor__insertBlock--muted {
+  .fieldSchemaEditor__insertBlock__insertActions {
+    visibility: hidden;
+    &:hover {
+      visibility: visible;
+    }
+  }
+}
+.fieldSchemaEditor__insertFields {
+  background: theme.$color-white;
+  border-radius: theme.$edge-radius;
+  border: 2px solid theme.$color-light-gray-700;
+  margin: theme.$space-5 auto;
+}
+
+.fieldSchemaEditor__insertFields__default,
+.fieldSchemaEditor__insertFields__extras,
+.fieldSchemaEditor__insertFields__actions {
+  padding-left: theme.$space-5;
+  padding-right: theme.$space-5;
+}
+
+.fieldSchemaEditor__insertFields__default {
+  background: theme.$color-white;
+  border-bottom: 1px solid theme.$color-light-gray-900;
+}
+
+
+.fieldSchemaEditor__insertFields__actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // border-top: 1px solid theme.$color-light-gray-900;
+}
+
+.fieldSchemaEditor__insertFields__optionsList {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.fieldSchemaEditor__insertFields__optionsList__item {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  padding: theme.$space-2 theme.$space-4 theme.$space-2 theme.$space-2;
+  border: 1px solid theme.$color-light-gray-900;
+  margin: theme.$space-2;
+  border-radius: theme.$edge-radius;
+  transition: all 0.3s ease-in-out;
+  min-width: 240px;
+
+  .removeOptionButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7.5px;
+    border: 1px solid theme.$color-mid-gray-900;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

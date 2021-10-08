@@ -1,0 +1,20 @@
+@use "theme";
+
+.mainSite {
+  .siteHeader {
+    z-index: theme.$z4;
+  }
+  .mainSite__fixedHeader {
+    margin-top: 70px;
+  }
+  .mainSite__siteHeader__logo {
+    background-image: url('../../assets/img/logo--fullColour--iconOnly.png');
+    @include theme.breakpoint(medium){
+      background-image: url('../../assets/img/logo--fullColour.png');
+    }
+  }
+  .mainSite__siteHeader__signUpButton {
+    margin-left: 13px;
+  }
+  min-height: 100%;
+}

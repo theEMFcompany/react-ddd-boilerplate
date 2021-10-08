@@ -1,0 +1,207 @@
+@use "theme";
+.radio-field, .radio-label, .check-field, .check-label{
+  color: darken(theme.$color-mid-gray, 20);
+}
+.selectFieldSet{
+  border: none;
+  box-sizing: border-box;
+  color: theme.$color-dark-gray;
+  position: relative;
+  width: 100%;
+  max-width: theme.$wrap-width-small;
+}
+
+.selectFieldSet:hover{
+  cursor: pointer;
+}
+
+.selectField {
+  position: relative;
+  border: 1px solid theme.$color-light-gray-900;
+  background-color: theme.$color-light-gray-100;
+  border-radius: theme.$global-border-radius;
+  font-size: theme.$font-size-default;
+  padding: 24px 15px 15px 15px;
+  height: 60px;
+}
+
+.selectFieldMask {
+  display: none;
+}
+
+.selectFieldMask--active {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 60px;
+}
+.selectField__label{
+  color: lighten(theme.$color-dark-gray-500, 20);
+  position: absolute;
+  transform: translateY(-46px) scale(0.7, 0.7);
+  transform-origin: 0%;
+  left: 15px;
+  font-size: theme.$font-size-up-1;
+  pointer-events: none;
+  margin-bottom: 0;
+  display: block;
+}
+.selectField__value{
+  line-height: 0;
+  // padding-top: 8px;
+}
+.selectField__caret {
+  color: lighten(theme.$color-dark-gray-500, 20);
+  position: absolute;
+  right: 24px;
+  top: 50%;
+  margin: -8px;
+  transform: rotateZ(0deg);
+  transform-origin: center;
+  transition: transform 0.4s ease-in-out;
+}
+
+.selectField--active .selectField__caret {
+  transform: rotateZ(180deg);
+  pointer-events: none;
+}
+
+.selectField__list {
+  border: 1px solid theme.$color-light-gray-900;
+  background-color: theme.$color-light-gray-100;
+  border-radius: theme.$global-border-radius;
+  max-height: 360px;
+  overflow-y: scroll;
+  position: absolute;
+  width: 100%;
+  top: 62px;
+  left: 0;
+  z-index: theme.$z3;
+  transform: rotateX(90deg);
+  transform-origin: top;
+  transition: transform 0.3s ease-in-out;
+}
+.selectField__list--active {
+  transform: rotateX(0deg);
+}
+.selectField__listItem {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  border-bottom: 1px solid theme.$color-light-gray-900;
+  background-color: theme.$color-light-gray-100;
+  padding: 15px;
+}
+.selectField__listItem:last-child{
+  border-bottom: none;
+}
+.selectField__listItem:hover{
+  color: theme.$color-primary-700;
+}
+.selectField__listItem--checked {
+  color: theme.$color-primary-900;
+}
+.selectField__listItem--disabled{
+  color: theme.$color-mid-gray;
+}
+.selectField__listItem__checker{
+  display: flex;
+}
+.selectField__listItem__icon {
+  margin-right: theme.$space-5;
+}
+.selectField__listItem__content{
+  flex: 1;
+}
+
+.checker-sphere-checked{
+  background-color: theme.$color-primary-900;
+}
+
+
+.selectButton{
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid theme.$color-light-gray-900;
+  border-radius: theme.$edge-radius;
+  color: theme.$color-dark-gray-500;
+  padding: 7.5px 15px;
+  margin-right: 15px;
+  // margin-left: 7.5px;
+  margin-bottom: 15px;
+  transition: opacity 0.2s ease-in-out;
+}
+.selectButton:hover{
+  opacity: 0.6;
+  cursor: pointer;
+}
+.selectButton--checked{
+  background-color: theme.$color-secondary-900;
+  color: theme.$color-white;
+}
+.selectButton--disabled{
+  color: theme.$color-mid-gray;
+}
+
+.selectOption{
+  display: flex;
+  align-items: center;
+  color: theme.$color-dark-gray;
+  border-bottom: 1px solid theme.$color-light-gray-900;
+  padding: 7.5px 15px;
+  min-width: 160px;
+  text-align: left;
+}
+.selectOption:last-child{
+  border-bottom: none;
+}
+.selectOption:hover{
+  cursor: pointer;
+}
+.selectOption--checked{
+  font-weight: theme.$global-weight-bold;
+}
+.selectOption--disabled{
+  color: theme.$color-mid-gray;
+}
+
+.checker{
+  font-size: theme.$font-size-default;
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  // width: 24px;
+  // height: 24px;
+  color: theme.$color-white;
+  margin-right: 7.5px;
+  font-size: theme.$font-size-default;
+
+}
+.checker-box{
+  text-align: center;
+  background-color: theme.$color-mid-gray;
+  border-radius: 4px;
+  padding: 5px;
+  border: 1px solid theme.$color-mid-gray;
+}
+.checker-sphere{
+  // top: 6px;
+  background-color: theme.$color-white;
+  border-radius: 50%;
+  padding: 10px;
+  border: 1px solid theme.$color-mid-gray;
+}
+.checker:hover{
+  cursor: pointer;
+}
+.checker-checked{
+  background: theme.$color-secondary-700;
+  background-clip: padding-box;
+  border: 1px solid theme.$color-secondary-900;
+  color: theme.$color-white;
+}
+.checker-disabled{
+  color: theme.$color-mid-gray;
+}

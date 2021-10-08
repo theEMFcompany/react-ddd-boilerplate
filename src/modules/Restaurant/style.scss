@@ -1,0 +1,20 @@
+@use 'theme';
+.restaurantsWrapper {
+  justify-content: flex-start;
+}
+
+.restaurantListing {
+  @include theme.breakpoint(medium) {
+    height: 560px;
+  }
+  animation: theme.$slide-in-left;
+  .restaurantName {
+    margin: 0;
+  }
+}
+
+.restaurantFiltersWrapper {
+  display: flex;
+  justify-content: flex-start;
+  padding: 30px;
+}

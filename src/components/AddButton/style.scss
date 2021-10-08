@@ -1,0 +1,67 @@
+@use "theme" ;
+.addButton-wrap{
+  display: block;
+  // margin-bottom: 15px;
+  text-align: center;
+  @include theme.breakpoint(medium){
+    display: inline-block;
+    margin-left: 15px;
+    margin-bottom: 0;
+  };
+}
+.addButton-wrap:last-child{
+  margin-right: 0;
+}
+.addButton{
+  display: flex;
+  flex-shrink: 1;
+  justify-content: space-between;
+  align-items: center;
+  // width: 100%;
+  // max-width: 460px;
+  background-color: theme.$color-white-transparent-3;
+  color: theme.$color-dark-gray-800;
+  font-weight: theme.$global-weight-bold;
+  padding: 2px;
+  // font-size: theme.$font-size-up-1;
+  border: 1px solid theme.$color-mid-gray-100;
+  border-radius: 500px;
+  // box-shadow: theme.$shadow-z2;
+  transition: all 0.5s ease-in-out;
+  @include theme.breakpoint(medium){
+    padding: 7.5px 30px 7.5px 7.5px;
+  }
+}
+.addButton .iconClass{
+  // display: inline-block;
+  // display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: theme.$color-dark-gray-200;
+  color:theme.$color-white ;
+  padding: 7.5px;
+  // width: 40px;
+  // height: 40px;
+  border-radius: theme.$global-rounded;
+  // font-size: 14px;
+  @include theme.breakpoint(medium){
+    margin-right: 15px;
+  }
+}
+.addButton:hover{
+  cursor: pointer;
+  background-color: theme.$color-white;
+  color: theme.$color-dark-gray-800;
+  box-shadow: theme.$shadow-z3;
+}
+.addButton em{
+  flex: 1;
+  font-style: normal;
+  font-weight:  theme.$global-weight-bold;
+}
+.addButton>span{
+  display: none;
+  @include theme.breakpoint(medium){
+    display: inline;
+  }
+}

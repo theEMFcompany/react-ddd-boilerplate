@@ -1,0 +1,15 @@
+@use 'theme';
+.star-rated{
+  padding: 2px;
+  box-sizing: border-box;
+  color: theme.$color-secondary-900;
+  width:15px;
+  height: 15px;
+}
+.half-star-rated{
+  color: theme.$color-secondary-900;
+  width: 7.5px;
+  padding: 2px;
+  height: 15px;
+  overflow: hidden;
+}

@@ -1,0 +1,11 @@
+@use "theme" ;
+.wizard-viewWrapper{
+    position: relative;
+    width: 80%;
+    // overflow: hidden;
+    margin-bottom: 100px;
+    min-height: calc(100vh - 200px);
+    @include theme.breakpoint(medium){
+        width: 100%;
+    }
+}
