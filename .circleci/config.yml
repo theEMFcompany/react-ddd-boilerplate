@@ -9,25 +9,25 @@ executors:
 parameters:
   project_name:
     type: string
-    default: briefcart
+    default: reactddd
   app_name:
     type: string
-    default: briefcart-website
+    default: reactddd-website
   image_name:
     type: string
-    default: briefcart-web-site
+    default: reactddd-web-site
   node_image:
     type: string
     default: node:10.14.2
   context:
     type: string
-    default: briefcart
+    default: reactddd
   manifest:
     type: string
     default: frontend.yaml
   deployment_repo:
     type: string
-    default: git@github.com:theEMFcompany/briefcart-deployment-env.git
+    default: git@github.com:theEMFcompany/reactddd-deployment-env.git
   registry_base:
     type: string
     default: registry.digitalocean.com
@@ -39,7 +39,7 @@ parameters:
     default: web-site
   git_email:
     type: string
-    default: dev@briefcart.com
+    default: dev@reactddd.com
   git_user:
     type: string
     default: briefcart_dev
