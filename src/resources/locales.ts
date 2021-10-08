@@ -1,5 +1,5 @@
 export enum C {
-  SITE_NAME = 'Briefcart'
+  SITE_NAME = 'DDD Boilerplate'
 }
 export const siteMenu = {
   pricing: 'Pricing',
@@ -98,44 +98,4 @@ export const onboard = {
       helpText: ''
     }
   },
-}
-export const requirementsCollator = {
-  pageTitle: 'Create new Requirements Collator',
-  templateType: {
-    title: 'Template',
-    heading: 'What are you working on?',
-    description: ''
-  },
-  requirementFields: {
-    title: 'Requirements',
-    heading: 'What info do you require?',
-    description: ''
-  },
-  stakeholders: {
-    title: 'Stakeholders',
-    heading: 'Who are your stakeholders?',
-    description: '',
-    emailFieldLabel: 'Enter a valid email'
-  }
-}
-export const restuarants = {
-  restaurantsTitle: 'Restaurants',
-  currencyLabel: 'Currency',
-  ratingFrom: 'rating from',
-  diners: 'diners',
-  addressLabel: 'Address',
-  countryLabel: 'Country',
-  cityLabel: 'City',
-  cuisinesLabel: 'Cuisines',
-  priceRangeLabel: 'Price Range',
-  singularRestaurant: 'Restaurant',
-  pluralRestaurant: 'Restaurants',
-  clearFilters: 'Clear all',
-  filterRestaurants: 'Filter By',
-  loadingFilters: 'Fetching Filters',
-  loadingRestaurants: 'Fetching Restaurants',
-  noResultsHeading: 'Ooops! Don\'t mean to break your heart...',
-  noResultsDesc: 'but no restaurants matching Your criteria were found. Try changing your filters and searching again',
-  filterCTA: 'Apply Filters',
-  noFilters: 'Nothing to Show'
 }
